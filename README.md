@@ -2,18 +2,22 @@
 
 
 **Requirments**
+
 -JDK version 11 (Used OpenJDK 11.0.4)
 
 -Gradle 6.9.1  https://gradle.org/releases/
 
 **Building and Installation**
+
 1. Clone the Project from github
 2. Navigate to the root directory and execute the  "gradle build" command
 
 **Running the application**
+
 To run the application, navigate to the build/libs directory and run the command "java -jar .\multi-value-dictionary-1.0-SNAPSHOT.jar"
 
 **Project Structure**
+
 1. src/main/groovy/Command  
     -This directory contains utilities and model objects that facilitate the parsing of command objects from standard input to be executed on the dictionary
     
@@ -40,6 +44,7 @@ To run the application, navigate to the build/libs directory and run the command
 
 
 **Supported Commands**
+
 -Note arguments are denoted by quoted values, each command must have the specified arguments without quotes (example: ADD foo bar) and commands are case sensitive
 
 1. KEYS: Returns all keys in the dictionary
