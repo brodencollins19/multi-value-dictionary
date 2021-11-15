@@ -1,7 +1,7 @@
 # multi-value-dictionary
 
 
-**Requirments**
+**Requirements**
 
 -JDK version 11 (Used OpenJDK 11.0.4)
 
