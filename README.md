@@ -3,6 +3,7 @@
 
 **Requirments**
 -JDK version 11 (Used OpenJDK 11.0.4)
+
 -Gradle 6.9.1  https://gradle.org/releases/
 
 **Building and Installation**
