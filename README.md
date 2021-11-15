@@ -31,6 +31,7 @@ To run the application, navigate to the build/libs directory and run the command
       
  2. src/main/groovy/dictionary
     --This directory contains the domain for the dictionary data structure and its utilities
+    
       a. DictionaryService.groovy: This class handles the processing of command objects from the command parser, and
       directs the command to the proper operation to be executed in the dictionary class
       
