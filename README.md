@@ -15,6 +15,7 @@ To run the application, navigate to the build/libs directory and run the command
 **Project Structure**
 1. src/main/groovy/Command  
     -This directory contains utilities and model objects that facilitate the parsing of command objects from standard input to be executed on the dictionary
+    
       a. Command.groovy: a basic model object to model commands
       
       b. CommandType.groovy: An enum that maps different types of command from standar input
@@ -33,8 +34,8 @@ To run the application, navigate to the build/libs directory and run the command
       c. MultiValueDictionary.groovy: The primary dictionary data structure, contains the underlying implementations of all operations triggered by the commands
       
   3. ApplicationRunner.groovy: Entry point to the application, provides command line access and handles any exceptions
-  4. 
-  5. src/test/groovy: This directory contains all unit testing classes
+  
+  4. src/test/groovy: This directory contains all unit testing classes
 
 
 **Supported Commands**
